@@ -13,7 +13,7 @@ username = os.getenv("username")
 password = os.getenv("password")
 
 # Set your Confluence details here
-space_key = 'SUP'  # replace with your info
+space_key = 'ENGR'  # replace with your info
 
 # Function to fetch pages from Confluence
 def fetch_pages(start, limit):
