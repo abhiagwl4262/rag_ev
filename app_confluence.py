@@ -274,7 +274,7 @@ def main():
     all_pages = []
     start = 0
     limit = 25
-    csv_file = './data/kb.csv'
+    csv_file = 'kb.csv'
     
     print("Fetching pages...")
     # all_pages = fetch_pages_by_limit(all_pages, start, limit)
